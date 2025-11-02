@@ -47,6 +47,10 @@ int main()
 
 double calculate(std::queue<Operand *>& q)
 {
+    // TODO: If you don't correctly set up the calculation code,
+    //   the stack might become empty too soon. Throw an exception of some kind if this happens.
+
+    
     // stack to hold numeric values used with RPN operations
     std::stack<double> numbers;
 
