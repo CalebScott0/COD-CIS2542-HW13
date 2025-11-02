@@ -5,8 +5,8 @@ Operand::~Operand()
     // Empty
 }
 
-Number::Number(double num)
-    : number(num)
+Number::Number(double val)
+    : value(val)
 {
     // Empty
 }

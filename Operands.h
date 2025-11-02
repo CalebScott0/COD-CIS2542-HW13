@@ -11,8 +11,8 @@ public:
 class Number : public Operand
 {
 public:
-    Number(double num);
-    double number;
+    Number(double val);
+    double value;
 };
 
 class Operator : public Operand
